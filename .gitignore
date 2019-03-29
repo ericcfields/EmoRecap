@@ -1,0 +1,40 @@
+#Files to ignore for LER git repository
+
+### File types to completely ignore ###
+*.ffs_db
+*.lnk
+*.set
+*.fdt
+*.bdf
+*.erp
+*.asv
+*.exe
+*.dll
+*.DS_Store
+*.mat
+*.GND
+*.GRP
+*.omv
+*.tif
+*.bmp
+*.jpg
+*.xlsx
+*.docx
+
+### Folders to completely ignore ###
+belist/*
+biosemi_bdf/*
+EEGsets/*
+ERPsets/*
+*__pycache__*
+code/batch_outputs/*
+code/old/*
+stats/old/*
+stats/batch_outputs/*
+stats/results/*
+stats/rejection_rates/*
+stats/figures/exp_fig_functions/*
+
+### File subsets in folder to ignore ###
+arf/*.txt
+ICA/*log.txt

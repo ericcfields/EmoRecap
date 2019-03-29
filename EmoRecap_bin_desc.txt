@@ -1,0 +1,511 @@
+#Bin descriptor for EmoRecap ERP
+
+###### Encoding ######
+
+bin 1
+	Neu_Face_Encoding
+	.{65-96}{203}
+
+bin 2
+	Neu_Scene_Encoding
+	.{97-128}{204}
+
+bin 3
+	Pos_Face_Encoding
+	.{129-160}{205}
+
+bin 4
+	Pos_Scene_Encoding
+	.{161-192}{206}
+
+bin 5
+	Neg_Face_Encoding
+	.{1-32}{201}
+
+bin 6
+	Neg_Scene_Encoding
+	.{33-64}{202}
+
+bin 7
+	Neu_All_Encoding
+	.{65-128}{203-204}
+
+bin 8
+	Pos_All_Encoding
+	.{129-192}{205-206}
+
+bin 9
+	Neg_All_Encoding
+	.{1-64}{201-202}
+
+###### Retrieval ######
+
+bin 10
+	Neu_Face_Retrieval
+	.{65-96}{~203}
+
+bin 11
+	Neu_Scene_Retrieval
+	.{97-128}{~204}
+
+bin 12
+	Pos_Face_Retrieval
+	.{129-160}{~205}
+
+bin 13
+	Pos_Scene_Retrieval
+	.{161-192}{~206}
+
+bin 14
+	Neg_Face_Retrieval
+	.{1-32}{~201}
+
+bin 15
+	Neg_Scene_Retrieval
+	.{33-64}{~202}
+
+bin 16
+	Neu_All_Retrieval
+	.{65-128}{~203-204}
+
+bin 17
+	Pos_All_Retrieval
+	.{129-192}{~205-206}
+
+bin 18
+	Neg_All_Retrieval
+	.{1-64}{~201-202}
+
+bin 19
+	Distractor
+	.{250}
+
+# Remember #
+
+bin 20
+	Neu_Face_Remember
+	.{65-96}{195}
+
+bin 21
+	Neu_Scene_Remember
+	.{97-128}{195}
+
+bin 22
+	Pos_Face_Remember
+	.{129-160}{195}
+
+bin 23
+	Pos_Scene_Remember
+	.{161-192}{195}
+
+bin 24
+	Neg_Face_Remember
+	.{1-32}{195}
+
+bin 25
+	Neg_Scene_Remember
+	.{33-64}{195}
+
+bin 26
+	Neu_All_Remember
+	.{65-128}{195}
+
+bin 27
+	Pos_All_Remember
+	.{129-192}{195}
+
+bin 28
+	Neg_All_Remember
+	.{1-64}{195}
+
+bin 29
+	Distractor_Remember
+	.{250}{195}
+
+# Know #
+
+bin 30
+	Neu_Face_Know
+	.{65-96}{196}
+
+bin 31
+	Neu_Scene_Know
+	.{97-128}{196}
+
+bin 32
+	Pos_Face_Know
+	.{129-160}{196}
+
+bin 33
+	Pos_Scene_Know
+	.{161-192}{196}
+
+bin 34
+	Neg_Face_Know
+	.{1-32}{196}
+
+bin 35
+	Neg_Scene_Know
+	.{33-64}{196}
+
+bin 36
+	Neu_All_Know
+	.{65-128}{196}
+
+bin 37
+	Pos_All_Know
+	.{129-192}{196}
+
+bin 38
+	Neg_All_Know
+	.{1-64}{196}
+
+bin 39
+	Distractor_Know
+	.{250}{196}
+
+# Guess #
+
+bin 40
+	Neu_Face_Guess
+	.{65-96}{197}
+
+bin 41
+	Neu_Scene_Guess
+	.{97-128}{197}
+
+bin 42
+	Pos_Face_Guess
+	.{129-160}{197}
+
+bin 43
+	Pos_Scene_Guess
+	.{161-192}{197}
+
+bin 44
+	Neg_Face_Guess
+	.{1-32}{197}
+
+bin 45
+	Neg_Scene_Guess
+	.{33-64}{197}
+
+bin 46
+	Neu_All_Guess
+	.{65-128}{197}
+
+bin 47
+	Pos_All_Guess
+	.{129-192}{197}
+
+bin 48
+	Neg_All_Guess
+	.{1-64}{197}
+
+bin 49
+	Distractor_Guess
+	.{250}{197}
+
+# New #
+
+bin 50
+	Neu_Face_New
+	.{65-96}{198}
+
+bin 51
+	Neu_Scene_New
+	.{97-128}{198}
+
+bin 52
+	Pos_Face_New
+	.{129-160}{198}
+
+bin 53
+	Pos_Scene_New
+	.{161-192}{198}
+
+bin 54
+	Neg_Face_New
+	.{1-32}{198}
+
+bin 55
+	Neg_Scene_New
+	.{33-64}{198}
+
+bin 56
+	Neu_All_New
+	.{65-128}{198}
+
+bin 57
+	Pos_All_New
+	.{129-192}{198}
+
+bin 58
+	Neg_All_New
+	.{1-64}{198}
+
+bin 59
+	Distractor_New
+	.{250}{198}
+
+# Remember/Know #
+
+bin 60
+	Neu_Face_Remember&Know
+	.{65-96}{195;196}
+
+bin 61
+	Neu_Scene_Remember&Know
+	.{97-128}{195;196}
+
+bin 62
+	Pos_Face_Remember&Know
+	.{129-160}{195;196}
+
+bin 63
+	Pos_Scene_Remember&Know
+	.{161-192}{195;196}
+
+bin 64
+	Neg_Face_Remember&Know
+	.{1-32}{195;196}
+
+bin 65
+	Neg_Scene_Remember&Know
+	.{33-64}{195;196}
+
+bin 66
+	Neu_All_Remember&Know
+	.{65-128}{195;196}
+
+bin 67
+	Pos_All_Remember&Know
+	.{129-192}{195;196}
+
+bin 68
+	Neg_All_Remember&Know
+	.{1-64}{195;196}
+
+bin 69
+	Distractor_Remember&Know
+	.{250}{195;196}
+
+# Guess/New #
+
+bin 70
+	Neu_Face_Guess&New
+	.{65-96}{197;198}
+
+bin 71
+	Neu_Scene_Guess&New
+	.{97-128}{197;198}
+
+bin 72
+	Pos_Face_Guess&New
+	.{129-160}{197;198}
+
+bin 73
+	Pos_Scene_Guess&New
+	.{161-192}{197;198}
+
+bin 74
+	Neg_Face_Guess&New
+	.{1-32}{197;198}
+
+bin 75
+	Neg_Scene_Guess&New
+	.{33-64}{197;198}
+
+bin 76
+	Neu_All_Guess&New
+	.{65-128}{197;198}
+
+bin 77
+	Pos_All_Guess&New
+	.{129-192}{197;198}
+
+bin 78
+	Neg_All_Guess&New
+	.{1-64}{197;198}
+
+bin 79
+	Distractor_Guess&New
+	.{250}{197;198}
+
+###### AGAT ######
+
+bin 80
+    AGAT_Encoding
+    .{1-192}{201-206}
+
+bin 81
+    AGAT_Retrieval
+    .{1-192;250}{~201-206}
+
+bin 82
+    AGAT_Retrieval_OldOnly
+    .{1-192}{~201-206}
+
+bin 83
+    AGAT_Encoding&Retrieval
+    .{1-192;250}
+
+##### Encoding by memory #####
+#Flag 1 = Remember
+#Flag 2 = Know
+#Flag 3 = Guess
+#Flag 4 = New
+#Flag 5 = memory info present
+#(bins go from right to left in the syntax below)
+
+# Remember #
+
+bin 84
+	Neu_Face_Enc_Remember
+	.{65-96:fb<0001>}{203}
+
+bin 85
+	Neu_Scene_Enc_Remember
+	.{97-128:fb<0001>}{204}
+
+bin 86
+	Pos_Face_Enc_Remember
+	.{129-160:fb<0001>}{205}
+
+bin 87
+	Pos_Scene_Enc_Remember
+	.{161-192:fb<0001>}{206}
+
+bin 88
+	Neg_Face_Enc_Remember
+	.{1-32:fb<0001>}{201}
+
+bin 89
+	Neg_Scene_Enc_Remember
+	.{33-64:fb<0001>}{202}
+
+bin 90
+	Neu_All_Enc_Remember
+	.{65-128:fb<0001>}{203-204}
+
+bin 91
+	Pos_All_Enc_Remember
+	.{129-192:fb<0001>}{205-206}
+
+bin 92
+	Neg_All_Enc_Remember
+	.{1-64:fb<0001>}{201-202}
+
+# Know #
+
+bin 93
+	Neu_Face_Enc_Know
+	.{65-96:fb<0010>}{203}
+
+bin 94
+	Neu_Scene_Enc_Know
+	.{97-128:fb<0010>}{204}
+
+bin 95
+	Pos_Face_Enc_Know
+	.{129-160:fb<0010>}{205}
+
+bin 96
+	Pos_Scene_Enc_Know
+	.{161-192:fb<0010>}{206}
+
+bin 97
+	Neg_Face_Enc_Know
+	.{1-32:fb<0010>}{201}
+
+bin 98
+	Neg_Scene_Enc_Know
+	.{33-64:fb<0010>}{202}
+
+bin 99
+	Neu_All_Enc_Know
+	.{65-128:fb<0010>}{203-204}
+
+bin 100
+	Pos_All_Enc_Know
+	.{129-192:fb<0010>}{205-206}
+
+bin 101
+	Neg_All_Enc_Know
+	.{1-64:fb<0010>}{201-202}
+
+# Guess #
+
+bin 102
+	Neu_Face_Enc_Guess
+	.{65-96:fb<0100>}{203}
+
+bin 103
+	Neu_Scene_Enc_Guess
+	.{97-128:fb<0100>}{204}
+
+bin 104
+	Pos_Face_Enc_Guess
+	.{129-160:fb<0100>}{205}
+
+bin 105
+	Pos_Scene_Enc_Guess
+	.{161-192:fb<0100>}{206}
+
+bin 106
+	Neg_Face_Enc_Guess
+	.{1-32:fb<0100>}{201}
+
+bin 107
+	Neg_Scene_Enc_Guess
+	.{33-64:fb<0100>}{202}
+
+bin 108
+	Neu_All_Enc_Guess
+	.{65-128:fb<0100>}{203-204}
+
+bin 109
+	Pos_All_Enc_Guess
+	.{129-192:fb<0100>}{205-206}
+
+bin 110
+	Neg_All_Enc_Guess
+	.{1-64:fb<0100>}{201-202}
+
+# New #
+
+bin 111
+	Neu_Face_Enc_New
+	.{65-96:fb<1000>}{203}
+
+bin 112
+	Neu_Scene_Enc_New
+	.{97-128:fb<1000>}{204}
+
+bin 113
+	Pos_Face_Enc_New
+	.{129-160:fb<1000>}{205}
+
+bin 114
+	Pos_Scene_Enc_New
+	.{161-192:fb<1000>}{206}
+
+bin 115
+	Neg_Face_Enc_New
+	.{1-32:fb<1000>}{201}
+
+bin 116
+	Neg_Scene_Enc_New
+	.{33-64:fb<1000>}{202}
+
+bin 117
+	Neu_All_Enc_New
+	.{65-128:fb<1000>}{203-204}
+
+bin 118
+	Pos_All_Enc_New
+	.{129-192:fb<1000>}{205-206}
+
+bin 119
+	Neg_All_Enc_New
+	.{1-64:fb<1000>}{201-202}
