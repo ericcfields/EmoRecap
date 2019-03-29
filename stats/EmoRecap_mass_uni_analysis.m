@@ -1,7 +1,7 @@
 %Mass univariate analysis for EmoRecap ERP
 %
 %Author: Eric Fields
-%Version Date: 27 March 2019
+%Version Date: 29 March 2019
 
 clearvars; close all;
 
@@ -30,10 +30,6 @@ load(fullfile(main_dir, 'stats', 'EmoRecap_128Hz.GND'), '-mat');
 n_perm = 1e5;
 time_wind = [200 1000];
 chan_hood = 75;
-
-%% Add bins
-
-GND=bin_mean(GND,2,1,'Targets+Standards'); 
 
 
 %% Valence effects for Remember/Know
