@@ -20,6 +20,7 @@
 *.jpg
 *.xlsx
 *.docx
+*.ffs_gui
 
 ### Folders to completely ignore ###
 belist/*
