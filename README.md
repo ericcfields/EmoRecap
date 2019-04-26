@@ -17,8 +17,8 @@ Bowen, H. J., Fields, E. C., & Kensinger, E. A. (under review). Early reactivati
 4. When done, click UPDATE MARKS.
 5. Run `save_ICA_rej`, which will save the marked epochs so that they are not used in the next ICA step.
 6. Run `EmoRecap_run_ICA`. This will automatically run ICA for any subjects for whom the above pre-ICA rejection has been done but who do not yet have an ICA weight matrix. This script will run ICA and save the weight matrix in the ICA folder.
-7. After ICA is done, run `from_preart` and supply a subject ID. This will load the subject's data and create (or load, if already created) a script for detecting and rejecting trials with artifact remaining after ICA correction.
-8. Examine ICA components and determine which to remove. Specify these in the `ICrej` variably in the arf script.
+7. After ICA is done, run `from_preart` and supply a subject ID. This will load the subject's data and create (or load, if already created) a script for applying ICA correction and detecting and rejecting trials with artifact remaining after ICA correction.
+8. Examine ICA components and determine which to remove. Specify these in the `ICrej` variable in the arf script.
 9. Run the arf script and examine the data. If rejection does not look satisfactory, answer no to saving the data, adjust parameters, and re-run.
 10. Once satisfied, save the data. You will then be prompted if you want to calculate ERPs.
 
