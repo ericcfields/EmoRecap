@@ -1,4 +1,4 @@
-#Files to ignore for LER git repository
+#Files to ignore for EmoRecap git repository
 
 ### File types to completely ignore ###
 *.ffs_db
