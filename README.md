@@ -2,7 +2,7 @@
 
 This repository contains code used for data processing and analysis for:
 
-Bowen, H. J., Fields, E. C., & Kensinger, E. A. (under review). Early reactivation of emotion in ERPs to neutral retrieval cues. Preprint: https://www.biorxiv.org/content/10.1101/594747v1
+Bowen, H. J., Fields, E. C., & Kensinger, E. A. (in press). Prior emotional context modulates early event-related potentials to neutral retrieval cues. *Journal of Cognitive Neuroscience*. https://doi.org/10.1162/jocn_a_01451
 
 ## Usage/Workflow
 
