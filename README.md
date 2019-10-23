@@ -2,7 +2,7 @@
 
 This repository contains code used for data processing and analysis for:
 
-Bowen, H. J., Fields, E. C., & Kensinger, E. A. (in press). Prior emotional context modulates early event-related potentials to neutral retrieval cues. *Journal of Cognitive Neuroscience*. https://doi.org/10.1162/jocn_a_01451
+Bowen, H. J., Fields, E. C., & Kensinger, E. A. (2019). Prior Emotional Context Modulates Early Event-Related Potentials to Neutral Retrieval Cues. *Journal of Cognitive Neuroscience, 31*(11), 1755-1767. https://doi.org/10.1162/jocn_a_01451
 
 ## Usage/Workflow
 
